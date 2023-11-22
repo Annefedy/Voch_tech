@@ -1,0 +1,383 @@
+/*
+** CSS Responsável pela formatação dos Modais da Área do Candidato
+*/
+
+.title-login {
+    text-align: center;
+    color: #1C1C1E;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 57.7px;
+    font-family: 'Nunito', sans-serif;
+}
+
+h3.card-header.text-center {
+    padding: 20px;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: 0px solid rgba(0, 0, 0, .125);
+}
+
+.icon-social {
+    padding: 5px;
+}
+
+.login-logo {
+    display: none !important;
+}
+
+
+.div-login {}
+
+.login-card-body,
+.register-card-body {
+    padding: 0px !important;
+}
+
+.login-page,
+.register-page {
+    background-color: #fff !important;
+}
+
+.txt-or {
+    padding: 20px;
+    text-align: center;
+    color: #1C1C1E;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 57.7px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.custom-login .input-group-text {
+    background-color: transparent !important;
+    border: 0px !important;
+    border-top: 1px solid #ced4da !important;
+    border-bottom: 1px solid #ced4da !important;
+    border-left: 1px solid #ced4da !important;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+input.form-control.form-custom {
+    padding: 20px 5px;
+    border: 0px;
+    border-top: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+    border-right: 1px solid #ced4da !important;
+    border-radius: 0.55rem;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+
+.tx-lbm {
+    font-size: 14pt;
+    color: #484848;
+}
+
+.tx-yelow {
+    font-size: 14pt;
+    color: #FBBC05 !important;
+}
+
+.btn-primary {
+    border-radius: 6px !important;
+    color: #fff;
+    background-color: #6F2A84 !important;
+    border-color: #6F2A84 !important;
+}
+
+.btn-block {
+    display: block;
+    width: 50% !important;
+}
+
+.l4 {
+    padding: 20px 0px;
+}
+
+.l5 {
+    padding: 20px 0px;
+}
+
+.l6 {
+    padding: 20px 0px;
+}
+
+.card,
+.login-card-body,
+.register-card-body {
+    background-color: transparent !important;
+}
+
+/* Hide the browser's default checkbox */
+.vaga-check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    border: solid 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+.vaga-check:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.vaga-check input:checked~.checkmark {
+    background-color: #FCAF17;
+    border-color: #FCAF17;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.vaga-check input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.vaga-check .checkmark:after {
+    left: 7px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.link-enviar {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    color: #1DA1F2;
+    cursor: pointer;
+}
+
+.icon-custom-download {
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.noMargin {
+    margin: 0px !important;
+}
+
+.custom-dialog {
+    max-width: fit-content !important;
+}
+
+.titulo-modal {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #515151;
+}
+
+.div-foto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.foto {
+    background-color: #E6E6E6;
+    border-radius: 50%;
+    width: 145px;
+    height: 145px
+}
+
+.custom-edit {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+.icon-edit {
+    color: #E7F3F3;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 50%;
+    background: #6F2A84;
+    cursor: pointer;
+}
+
+.modal-txt {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #383637;
+}
+
+.div-info-destaque {
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #434343;
+    background: rgba(211, 144, 232, 0.3);
+    border: 1px dashed #9438B0;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.btn-form-outline {
+    margin: 0px;
+}
+
+.vaga-txt-area {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #BABABA;
+}
+
+.div-txt-collapse {
+    padding-left: 5px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 27px;
+    color: #5D5D5D;
+}
+
+.vaga-check {
+    font-family: 'Nunito';
+    font-weight: 400 !important;
+    font-size: 14px;
+    line-height: 20px;
+    color: #818181;
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.check-ajust {
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 599px) {
+
+    .modal-body {
+        margin-top: 60px;
+    }
+
+    .custom-dialog {
+        max-width: initial !important;
+    }
+
+    .div-content-sucesso {
+        text-align: center !important;
+        display: contents !important;
+    }
+
+    .icon-sucesso {
+        position: absolute;
+        margin-top: -90px;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+
+    .check-ajust {
+        margin-top: 15px;
+        padding-left: 0px !important;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+
+    .mg-bt-mob {
+        margin-bottom: 1.5rem !important;
+    }
+}
+
+.pergunta-txt {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #231F20;
+}
+
+.div-content-sucesso {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-sucesso {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 30px;
+    background: #DCFCE7;
+}
+
+.custom-fa-check {
+    color: #22C55E;
+    font-size: 50px;
+    padding: 16px;
+}
+
+.div-txt-sucesso {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 171%;
+    letter-spacing: 0.02em;
+    color: #383637;
+    margin-top: 10px;
+}
+
+#sucessoCandidatarSe .modal-header {
+    border-bottom: none;
+}
+
+#sucessoCandidatarSe .modal-footer,
+#loginCandidatarSe .modal-footer{
+    border-top: none;
+}

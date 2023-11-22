@@ -1,0 +1,247 @@
+/*
+** CSS Responsável pela formatação da Página Perfil do Candidato
+*/
+
+/*Responsivo*/
+@media screen and (max-width: 760px) {
+
+    .float-top-mobile {
+        margin-top: -30px;
+    }
+
+    .col-sm {
+        flex-basis: auto !important;
+    }
+
+}
+
+@media screen and (min-width: 761px) and (max-width: 1200px) {
+
+    .float-top-mobile {
+        margin-top: -30px;
+    }
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+    .col-mobile-full {
+        flex: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1300px) {}
+
+@media only screen and (min-width: 1301px) {}
+
+/*Fim do Responsivo*/
+
+.titulo-perfil {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24.2921px;
+    line-height: 29px;
+    color: #515151;
+}
+
+.titulo-perfil-small {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 29px;
+    color: #515151;
+}
+
+.dark-mode .titulo-perfil,
+.dark-mode .titulo-perfil-small {
+    color: #f2f2f2;
+}
+
+.priority-high-custom {
+    padding: 5px;
+    color: #fff;
+    background: #D390E8;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.dark-mode .priority-high-custom {
+    color: #232323;
+}
+
+.perfil-header {
+    padding: 20px 0px;
+    height: 80px;
+    border-bottom: solid 1px #E6E8F0;
+}
+
+.div-perfil-resumo {
+    display: flex;
+    flex-direction: row;
+}
+
+.div-perfil-foto {}
+
+.perfil-foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.div-info-perfil {}
+
+.itens-perfil {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 800px) {
+    .div-perfil-resumo {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .perfil-foto {
+        margin-right: inherit !important;
+    }
+    .itens-perfil {
+        flex-direction: column;
+        align-items: center !important;
+    }
+    .item-flex {
+        margin-right: inherit !important;
+        min-width: fit-content !important;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1030px) {
+    .itens-perfil {
+        flex-direction: column !important;        
+    }
+}
+
+.div-itens-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.itens-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-flex {
+    margin-right: 40px;
+    min-width: 300px;
+    width: fit-content;
+}
+
+.iten-flex-b {
+    margin: 5px 20px;
+    width: fit-content;
+}
+
+.perfil-nome {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23pt;
+    color: #0B0B0B;
+}
+
+.perfil-vaga {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18pt;
+    line-height: 25px;
+    color: #626262;
+}
+
+.dark-mode .perfil-nome,
+.dark-mode .perfil-vaga{
+    color:#f2f2f2;
+}
+
+.icons-perfil-info {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    background: #6F2A84;
+}
+
+.dark-mode .icons-perfil-info {
+    color: #f2f2f2;
+    background: #C58AF9;
+}
+
+.perfil-labels {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13pt;
+    line-height: 17px;
+    letter-spacing: -0.412966px;
+    color: rgba(30, 30, 30, 0.83);
+}
+
+.perfil-infos {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11pt;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: -0.412966px;
+    color: #626262;
+}
+
+.dark-mode .perfil-labels,
+.dark-mode .perfil-infos{
+    color: #f2f2f2;
+}
+
+.dark-mode #perfilDescricao {
+    background-color: #555555;
+}
+
+.perfil-titulo-resumo {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24pt;
+    line-height: 22px;
+    color: #505050;
+}
+
+.perfil-resumo {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #646464;
+}
+
+.dark-mode .perfil-titulo-resumo,
+.dark-mode .perfil-resumo{
+    color: #f2f2f2;
+}
+
+
+.bl-vte-perfil {
+    overflow: auto;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 11.7981px 23.5962px rgb(143 149 178 / 15%);
+}
+.dark-mode .bl-vte-perfil {
+    background-color: #363636;
+    box-shadow:none;
+}

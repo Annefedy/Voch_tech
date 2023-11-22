@@ -1,0 +1,318 @@
+/*
+** CSS Responsável pela formatação da página Área do Candidato
+*/
+
+/*Responsivo*/
+@media screen and (max-width: 769px) {
+
+    .sm-1-custom {
+        max-width: 100%;
+        flex: 30% !important;
+    }
+
+    .navbar-white {
+        background-color: #fff !important;
+    }
+
+    .div-logo {
+        top: -10px !important;
+        position: absolute !important;
+        z-index: 9 !important;
+        transform: translateX(-50%) !important;
+        left: 50% !important;
+        width: 250px !important;
+    }
+
+    .col-sm {
+        flex-basis: initial !important;
+    }
+
+    .bg-content-header {
+        padding: 20px !important;
+    }
+
+    .container-fluid {
+        padding: 20px !important;
+    }
+
+    .div-logo-empresa {
+        width: 100% !important;
+        height: 150px !important;
+    }
+
+    i.fas.fa-edit {
+        margin-top: 30px !important;
+        right: 20px !important;
+    }
+
+    .btn-outline {
+        margin: 15px 0px 0px !important;
+    }
+
+    .foto-empresa {
+        border-radius: 25px;
+        width: 100% !important;
+    }
+
+    .hidden-on-mobile {
+        display: none !important;
+    }
+
+    .social-footer {
+        padding-bottom: 30px;
+    }
+
+
+}
+
+@media screen and (min-width: 770px) and (max-width: 1050px) {
+    i.fas.fa-edit {
+        margin-top: 30px !important;
+        right: 20px !important;
+    }
+
+    .sm-1-custom {
+        max-width: 100%;
+        flex: 30% !important;
+    }
+
+}
+
+@media screen and (min-width: 1051px) and (max-width: 1199px) {}
+
+@media only screen and (min-width: 1200px) {
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container {
+        max-width: 85%;
+    }
+}
+
+/*Fim do Responsivo*/
+
+.container-fluid {
+    padding: 40px;
+}
+
+.div-logo {
+    width: 340px;
+    padding: 20px 40px;
+}
+
+.bg-content-header {
+    padding: 40px;
+    background: linear-gradient(0deg, #371B47 8.25%, #512263 32%, #6F2A84 51%, #6F2A84 73.39%);
+}
+
+.div-logo-empresa {
+    background-color: white;
+    border-radius: 14px;
+    width: 230px;
+    height: 230px;
+    margin-right: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-empresa {
+    width: 200px;
+}
+
+.div-sobre-empresa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+i.fas.fa-edit {
+    margin-top: -30px;
+    right: 60px;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.nome-empresa {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+.list-one,
+.list-two {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.item-list-one,
+.item-list-two {
+    padding: 0rem;
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.txt-local-site {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    padding-left: 15px;
+    margin-right: 40px;
+}
+
+.social-icons {
+
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    padding: 3px;
+    border-radius: 50%;
+    margin-right: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons:hover {
+
+    background: #FF8EED;
+    cursor: pointer;
+}
+
+.social-icons-r {
+
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    padding: 3px;
+    border: solid 1px #fff;
+    border-radius: 50%;
+    margin-right: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons-r:hover {
+
+    background: #FF8EED;
+    cursor: pointer;
+}
+
+.titulo-empresa {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: #9438B0;
+}
+
+.empresa-info-basic {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 171%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #5D5D5D;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.foto-empresa {
+    border-radius: 25px;
+    width: 100%;
+}
+
+/*Footer*/
+.content-footer {
+    background: #6F2A84;
+}
+
+.sobre-footer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #DDDDDD;
+}
+
+.footer-titulo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+.menu-footer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #DDDDDD;
+    padding-bottom: 20px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.icons-footer {
+    font-size: 20px;
+    color: #fff;
+    line-height: 26px;
+    padding-right: 10px;
+
+}
+
+.view-bl-login-mb {
+    display: none;
+}
+@media screen and (max-width: 800px) {
+    
+    .view-bl-login-mb {
+        display: inline !important;
+        position: fixed;
+        z-index: 999;
+        bottom: 0;
+        width: 100%;
+    }
+    .div-bl-login-mb {
+        height: 80px;
+        background-color: #fff;
+        border: solid 1px #E6E6E6;
+        border-bottom: none;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

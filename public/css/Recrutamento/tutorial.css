@@ -1,0 +1,60 @@
+/*
+** CSS Responsável pela formatação da Página Tutorial
+*/
+
+/*Responsivo*/
+@media screen and (max-width: 700px) {  
+    .lg-250 {
+        flex: 100% !important;
+        max-width: 100% !important;
+    }  
+}
+
+@media screen and (min-width: 701px) and (max-width: 1200px) {
+    
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+    
+}
+
+@media only screen and (min-width: 1301px) {}
+
+/*Fim do Responsivo*/
+.lg-250 {
+    flex: 250px;
+    max-width: 250px;
+}
+
+.tutorial-content{
+    max-height:400px;
+    overflow: auto;
+}
+.card-title{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;    
+    letter-spacing: -0.01em;    
+    color: #5D5D5D;   
+}
+
+.card-text{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 173%;    
+    color: #818181;
+}
+
+.dark-mode .card-title,
+.dark-mode .card-text,
+.dark-mode .text-muted{
+    color: #f2f2f2 !important;
+}
+
+.dark-mode ::after {
+    color: #C495FF;
+}

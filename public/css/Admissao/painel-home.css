@@ -1,0 +1,369 @@
+/*
+** CSS Responsável pela formatação da Página Painel de Vagas
+*/
+
+/*Responsivo*/
+@media screen and (max-width: 800px) {
+
+    /* .select-custom,
+    select#canBanTalento {
+        width: 25% !important;
+    } */
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {}
+
+@media screen and (min-width: 801px) and (max-width: 1050px) {}
+
+@media screen and (min-width: 1200px) and (max-width: 1700px) {}
+
+@media screen and (min-width: 1280px) and (max-width: 1300px) {}
+
+@media only screen and (min-width: 1301px) {}
+
+.div-bl1-titulos {
+    vertical-align: middle
+}
+
+.bl1-titulos {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #818181;
+    margin-left: 15px;
+}
+
+.bl1-contents {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16.8px;
+    color: #2D3748;
+}
+
+
+.flex-right {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 6px;
+}
+
+select#periodoPainelHome {
+    width: 150px;
+}
+
+#periodoPainelHome {
+    color: #ED228E;
+}
+
+.dark-mode #periodoPainelHome {
+    color: #FF8EED;
+}
+
+.titulo-total {
+    font-family: 'Poppins';
+    color: #8B8D97;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.nrisk {
+    color: #45464E;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 30px;
+}
+
+.txt-qtd {
+    font-family: 'Nunito';
+    color: #45464E;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+i.fa-solid.fas.fa-handshake,
+i.fa-solid.fas.fa-user-plus,
+i.fa-solid.fas.fa-users {
+    color: #5D5D5D;
+    padding: 15px;
+    background: rgba(85, 112, 241, 0.08);
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+i.fas.fa-exclamation-triangle {
+    font-size: 20px;
+    color: #FCB017;
+}
+
+.dark-mode i.fa-solid.fas.fa-handshake,
+.dark-mode i.fa-solid.fas.fa-user-plus,
+.dark-mode i.fa-solid.fas.fa-users {
+    color: #FF8EED;
+}
+
+.dark-mode i.fa-solid.fa-chart-pie {
+    color: #FF8EED;
+}
+
+.bl2-titulos {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ED228E;
+}
+
+.bl2-sub-titulo {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #615E83;
+
+    vertical-align: middle;
+
+}
+
+.total-vagas {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1E1B39;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+
+.container-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.apontamento-title{
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #5D5D5D;
+}
+
+i.fas.fa-calendar-alt{
+    color: #383637;
+    margin-right:5px;
+}
+.calendar-data{
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 14px;
+    color: #FCAF17;    
+}
+
+.apontamento-header {
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #818181;
+}
+
+.apontamento-nome {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #111827;
+}
+.apontamento-data {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    color: #A0AEC0;
+}
+
+.row.ln-txt {
+    width: 70%;
+}
+
+.ln-titulo {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #A3AED0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.ln-total {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1B2559;
+    vertical-align: middle;
+    text-align: center;
+}
+
+i.fa-solid.fa-location-dot {
+    font-size: 20px;
+    color: #A3AED0;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/*Dark Mode*/
+.dark-mode .titulo-total,
+.dark-mode .nrisk,
+.dark-mode .txt-qtd,
+.dark-mode .fa-wallet,
+.dark-mode .fa-globe,
+.dark-mode .fa-file-alt,
+.dark-mode .fa-shopping-cart,
+.dark-mode .bl2-titulos,
+.dark-mode .bl2-sub-titulo,
+.dark-mode .bl1-titulos,
+.dark-mode .bl1-contents,
+.dark-mode .total-vagas,
+.dark-mode .txt-circulos,
+.dark-mode .vl-circulos,
+.dark-mode .cliente-nome,
+.dark-mode i.fa-solid.fa-location-dot,
+.dark-mode .cliente-local,
+.dark-mode .ln-titulo,
+.dark-mode .ln-total {
+    color: #ced4da;
+}
+
+td.col-list-icons.text-center {
+    text-align: left !important;
+}
+
+.bl-vte {
+    overflow: auto;
+}
+
+
+/** CSS Graficos 'Charts js' **/
+
+/* canvas#barCharts {
+    height: 350px;
+    max-height: 350px;
+} */
+
+
+@media screen and (min-width: 10px) {
+
+
+    canvas#barCharts {
+        min-height: 400px !important;
+        max-height: 400px !important;
+    }
+
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+
+    .col-sm-9 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 1370px) and (max-width: 1499px) {
+
+
+
+    canvas#barCharts {
+        min-height: 350px !important;
+        max-height: 350px !important;
+    }
+}
+
+
+@media screen and (min-width: 1500px) and (max-width: 1680px) {
+
+
+    canvas#barCharts {
+        min-height: 350px !important;
+        max-height: 350px !important;
+    }
+}
+
+@media screen and (min-width: 1681px) {
+
+    canvas#barCharts {
+        min-height: 350px !important;
+        max-height: 350px !important;
+    }
+}
+
+/*Agenda Itens*/
+
+div#listarAgendas {
+    overflow-x: auto;
+    max-height: 330px;
+}
+
+@media screen and (min-width: 10px) and (max-width: 600px) {
+
+    div#listarAgendas {
+        height: initial;
+        overflow-x: initial;
+        min-height: 150px;
+    }
+}
+
+.agenda-titulo {
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 22px;
+    color: #222B45;
+}
+
+.agenda-subtitulo{
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #8F9BB3;   
+}
+
+i.fas.fa-gift {
+    margin-right: 5px;
+    font-size: 20px;
+    color: #ED228E;
+}
+
+.agenda-data-niver{
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 15px;
+    color: #ED228E;
+}
+.agenda-aniverssariante{
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 22px;
+    color: #5D5D5D;
+}
+
+.link-vjm,
+.link-vjm:hover {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ED228E;
+    padding-left: 20px;
+}
+

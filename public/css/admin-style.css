@@ -1,0 +1,290 @@
+.dark-mode .navbar-white {
+    background-color: #252525 !important;
+    color: #F2F2F2 !important;
+    border: none;
+}
+
+.dark-mode .card {
+    background-color: #252525 !important;
+    color: #F2F2F2 !important;
+}
+
+.dark-mode .modal-content {
+    background-color: #272727 !important;
+    color: #F2F2F2 !important;
+}
+
+.dark-mode .close,
+.dark-mode .mailbox-attachment-close {
+    color: #f2f2f2;
+}
+
+.dark-mode,
+.dark-mode .content-wrapper,
+.dark-mode .dropdown-menu,
+.dark-mode .main-footer {
+    background-color: #363636 !important;
+    color: #F2F2F2 !important;
+}
+
+/*Navbar Lateral*/
+[class*=sidebar-dark-] {
+    background-color: #fff;
+}
+
+[class*=sidebar-dark] .brand-link {
+    border-bottom: none !important;
+}
+
+.elevation-4 {
+    box-shadow: 3px 0px 2px rgba(0, 0, 0, .10), 0 0px 0px rgba(0, 0, 0, .22) !important;
+}
+
+.dark-mode .table thead th {
+    color: #fff;
+}
+
+/* img.logo-menu {
+    padding-top: 50px;
+    padding-left: 13%;
+} */
+
+.logo-menu {
+    padding-top: 90px;
+    opacity: .8;
+    background-image: url("../img/logo-menu.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.dark-mode .logo-menu {
+    background-image: url("../img/logo-menu-white.png");
+}
+
+img.logo-menu-circle {
+    width: 60px;
+    padding-top: 40px;
+}
+
+/*Div alerta jquery*/
+.toast-top-right {
+    top: 80px !important;
+}
+
+.dark-mode .custom-control-label::before,
+.dark-mode .custom-file-label,
+.dark-mode .custom-file-label::after,
+.dark-mode .custom-select,
+.dark-mode .form-control:not(.form-control-navbar):not(.form-control-sidebar),
+.dark-mode .input-group-text {
+    background-color: #363636;
+    color: #f2f2f2;
+}
+
+.dark-mode .list-group-item {
+    background-color: transparent;
+    border-color: none;
+}
+
+/*Paginação Dark Mode*/
+
+/* .page-link {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.5px;
+    color: #696F8C;
+
+    padding: 0.7rem 0.9rem;
+    line-height: 1.30;
+    border: 0px solid #dee2e6;
+    border-radius: 6px;
+} */
+
+.page-link {
+    font-family: 'Nunito';
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14.5px !important;
+    color: #696F8C;
+
+    padding: 0.7rem 0.9rem !important;
+    line-height: 1.30 !important;
+    border: 0px solid #dee2e6 !important;
+    border-radius: 6px !important;
+}
+
+/* .itens-link{
+    color: #ED228E;
+    background-color: rgba(232, 102, 171, 0.24) !important;
+    padding: 0.8rem 0.9rem !important;
+} */
+
+.dark-mode .page-item:not(.active) .page-link {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.dark-mode .page-item .page-link {
+    color: #f2f2f2;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+    outline: none !important;
+}
+
+*:focus {
+    outline: none !important;
+}
+
+/*Select com jquery select2()*/
+.select2-container {
+    min-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;
+}
+
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 38px !important;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 26px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 26px;
+}
+
+.select2-container--default .select2-selection--single {
+    background-color: transparent;
+    border: 1px solid #ced4da !important;
+}
+
+.dark-mode .select2-container--default .select2-selection--single {
+    background-color: #363636;
+    border: 1px solid #6c757d;
+}
+
+.dark-mode .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: inherit;
+}
+
+/**
+** Classe da Busca padrão
+*/
+i.fa.fa-search {
+    font-size: 20px;
+}
+.input-busca-default {
+    box-sizing: border-box;
+    height: 46px;
+    background: transparent;
+    border: solid 1px #DADDE5;
+    box-shadow: 0px 18px 54px rgba(0, 0, 0, 0.02);
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.addon-busca-default {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 0.7rem;
+    color: #A1A2AF;
+}
+
+.input-busca-top {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 5px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #A1A2AF;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: none;
+    cursor: pointer;
+}
+
+.addon-search {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.3rem;
+    color: #A1A2AF;
+}
+.input-busca-top::placeholder{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8F95B2;  
+}
+
+/*BTN Ativar / Desativar Modo Noturno*/
+
+i.fas.fa-sun,
+.i.fas.fa-moon {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1380px) {
+    .grupo-btn-modo-noturno {
+        display: none !important;
+
+    }
+}
+
+@media only screen and (min-width: 1381px) {
+    .grupo-btn-modo-noturno {
+        display: inline-block !important;
+    }
+}
+
+.grupo-btn-modo-noturno {
+    padding: 0px 5px;
+    border: solid 1px #888888;
+    border-radius: 25px;
+}
+
+.switch-modo-noturno input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.switch-modo-noturno label {
+
+    color: #9291A5;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    padding: 5px;
+    margin: 5px 0px;
+    transition: all 0.1s ease-in-out;
+}
+
+.switch-modo-noturno label:hover {
+    cursor: pointer;
+}
+
+.switch-modo-noturno input:checked+label {
+    background-color: #888888;
+    color: #F9AF1E;
+    border-radius: 50%;
+    box-shadow: none;
+}
+

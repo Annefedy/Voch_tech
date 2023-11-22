@@ -1,0 +1,512 @@
+/*
+** CSS Responsável pela formatação da Página Candidatos da Vaga
+*/
+
+/*Responsivo*/
+@media screen and (max-width: 569px) {
+    .float-sm-right-tst{
+        float: left !important;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (min-width: 570px) and (max-width: 800px) {
+    .float-sm-right-tst{
+        float: left !important;
+        padding: 0px 0px 0px 20px !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .titulo-vaga {
+        font-size: 18px !important;
+        line-height: 24px !important;
+    }
+
+    .nav-options-cv {
+        margin-top: -10px;
+    }
+
+    a.nav-link-post.dropdown-toggle-post.float-sm-right {
+        margin-top: -23px;
+    }
+
+    .tbl-titulo-div {
+        width: 300px !important;
+    }
+
+    .col-sm.div-btn-baixar {
+        width: 120px;
+    }
+
+    .txt-tbl {
+        width: 100px;
+    }
+
+    .txt-tbl.div-vaga-contato {
+        width: 250px;
+    }
+
+    .list-group-horizontal {
+        -ms-flex-direction: row !important;
+        flex-direction: row !important;
+    }
+
+    .col-1 {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .col-sm-1.div-logo {
+        flex: 0 0 20% !important;
+        max-width: 20% !important;
+    }
+
+    .div-cabecalho-vaga {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .div-logo{
+        width:150px !important;
+        height:150px !important;
+    }
+
+}
+
+
+
+@media screen and (min-width: 801px) and (max-width: 1050px) {
+
+    .titulo-vaga {
+        font-size: 20px !important;
+        
+    }
+
+    .nav-options-cv {
+        margin-top: 20px;
+    }
+
+    a.nav-link-post.dropdown-toggle-post.float-sm-right {
+        margin-top: -23px;
+    }
+
+    .tbl-titulo-div {
+        width: 300px !important;
+    }
+
+    .col-sm.div-btn-baixar {
+        width: 120px;
+    }
+
+    .txt-tbl {
+        width: 100px;
+    }
+
+    .txt-tbl.div-vaga-contato {
+        width: 250px;
+    }
+
+    .list-group-horizontal {
+        -ms-flex-direction: row !important;
+        flex-direction: row !important;
+    }
+
+    .col-1 {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .table-responsive-sm {
+        overflow-x: auto;
+    }
+    .col-sm-1.div-logo {
+        flex: 0 0 17% !important;
+        max-width: 17% !important;
+    }
+}
+
+@media screen and (min-width: 1051px) and (max-width: 1300px) {
+
+    .titulo-vaga {
+        font-size: 20px !important;
+    }
+
+    .nav-options-cv {
+        margin-top: 20px;
+    }
+
+    a.nav-link-post.dropdown-toggle-post.float-sm-right {
+        margin-top: -23px;
+    }
+
+    .tbl-titulo-div {
+        width: 300px !important;
+    }
+
+    .col-sm.div-btn-baixar {
+        width: 120px;
+    }
+
+    .txt-tbl {
+        width: 100px;
+    }
+
+    .txt-tbl.div-vaga-contato {
+        width: 250px;
+    }
+
+    .list-group-horizontal {
+        -ms-flex-direction: row !important;
+        flex-direction: row !important;
+    }
+
+    .col-1 {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .col-sm-1.div-logo {
+        flex: 0 0 17% !important;
+        max-width: 17% !important;
+    }
+
+}
+@media screen and (min-width: 1300px) and (max-width: 1400px) {
+    .col-sm-1.div-logo {
+        flex: 0 0 13% !important;
+        max-width: 13% !important;
+    }
+}
+@media only screen and (min-width: 1401px) {
+    
+}
+
+/*Fim do Responsivo*/
+
+.div-info-topo {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.div-logo{
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 40px;
+    margin-bottom:30px;
+    width:150px;
+    height:135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0px 4.06367px 4.06367px rgba(0, 0, 0, 0.25));
+}
+.cliente-logo {
+    padding:15px;
+    width:135px;
+}
+
+.titulo-vaga {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 32.5094px;
+    line-height: 44px;
+    color: #6F2A84;
+    border-bottom: solid 1px #E6E8F0;
+    padding-bottom: 12px;
+}
+
+.dark-mode .titulo-vaga {
+    color: #C495FF;
+    border-bottom: solid 1px #f2f2f2;
+}
+
+.titulo-candidatos{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.3184px;
+    line-height: 28px;
+    color: #353535;   
+}
+
+.dark-mode .titulo-candidatos{
+    color: #f2f2f2;   
+}
+
+.info-vaga {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 14.2228px;
+    line-height: 20px;
+    color: #505050;
+    padding-top: 12px;
+}
+
+.dark-mode .info-vaga {
+    color: #f2f2f2;
+}
+
+.qtd-candidatos {
+    min-width: 110px;
+    margin-top: -27px;
+    font-family: 'Noto Sans SC';
+    font-weight: 700;
+    font-size: 12.191px;
+    line-height: 16px;
+    color: #6F2A84;
+    padding: 8px 12px;
+    margin-right: 40px;
+    background: rgba(203, 155, 221, 0.4);
+    border-radius: 16.2547px;
+}
+
+.dark-mode .qtd-candidatos {
+    color: #BF49E3;
+    background: #E6A9F9;
+}
+
+.candidato-foto {
+    max-width: 36px;
+    max-height: 36px;
+    border-radius: 50%;
+}
+
+.exibirCandidatos{
+    width: 150px;
+    display: inline-flex;
+}
+
+.dark-mode .exibirCandidatos{
+    border-color: #f2f2f2 !important;
+    background-color: #252525 !important;
+}
+
+.div-vaga-contato{
+    width: 200px;
+}
+
+.float-sm-right-tst{
+    float: right;
+}
+
+.txt-contato {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 12.191px;
+    line-height: 22px; 
+    vertical-align: middle; 
+    vertical-align: super;
+}
+
+.local_post_office {
+    padding: 0px 10px;
+}
+
+.circulo-porcentagem {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 15px 12px;
+    border-radius: 50%;
+    background: linear-gradient(91.06deg, #5700B2 17.24%, #6F2A84 86.15%);
+}
+
+.curriculo-download {
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 12.5422px;
+    line-height: 100%;
+    letter-spacing: -0.05em;
+    color: #6F2A84;
+    padding: 10px 45px 10px 15px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+.fa-download {
+    padding-left: 10px;
+}
+
+.nav-options-cv {
+    padding-top: 8px;
+}
+
+a.dropdown-item-custom.link-vermelho {
+    color: #F55120;
+}
+
+a.dropdown-item-custom.link-verde {
+    color: #228B22;
+}
+
+.perfil-completo {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 9.36047px;
+    align-items: center;
+    color: #089171;
+    flex-direction: column;
+    padding: 3.74419px 8.42442px;
+    height: 20px;
+    background: #CFFCF2;
+    border-radius: 9.36047px;
+}
+
+.perfil-oculto {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 9.36047px;
+    align-items: center;
+    color: #394A64;
+    flex-direction: column;
+    padding: 3.74419px 8.42442px;
+    height: 20px;
+    background: #DEE5EF;
+    border-radius: 9.36047px;
+}
+
+.bl-ocultar-perfil {
+    overflow: auto;
+    border-radius: 15px;
+    border-bottom: solid 1px #ccc;
+    padding: 15px 0px;
+    box-shadow: 0px 3px 3px #ccc;
+}
+
+.dark-mode .bl-ocultar-perfil {
+    background-color:#363636;
+    border-bottom: none;
+    box-shadow: none;
+}
+
+.ocultar-itens-title {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #081735;
+    padding: 15px;
+}
+
+.dark-mode .ocultar-itens-title {
+    color: #f2f2f2;
+}
+
+.gray-background{
+    background: #F9FAFC;
+}
+.dark-mode .gray-background{
+    background: transparent;
+}
+
+.ocultar-itens {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #8F95B2;
+    padding: 15px;
+    border-top: solid 1px #E6E8F0;
+}
+
+.dark-mode .ocultar-itens {
+    color: #f2f2f2;
+}
+
+.modal-title-enviar {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #6F2A84;
+}
+
+.dark-mode .modal-title-enviar {
+    color: #C495FF;
+}
+
+.modal-txt-enviar {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #818181;
+}
+
+.dark-mode .modal-txt-enviar {
+    color: #f2f2f2;
+}
+
+.modal-content-enviar {
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.modal-title-selecionados {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #5D5D5D;
+}
+
+.dark-mode .modal-title-selecionados {
+    color: #f2f2f2;
+}
+
+.btn-continue {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #228B22;
+    border-color: #228B22;
+    border-radius: 6.62233px;
+    width: 120px;
+
+}
+
+.btn-continue:hover {
+    color: #FFFFFF;
+    background: #228B22;
+}
+
+.btn-nao {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #F55120;
+    border-color: #F55120;
+    border-radius: 6.62233px;
+    width: 120px;
+    margin-right: 15px;
+}
+
+.btn-nao:hover {
+    color: #FFFFFF;
+    background: #F55120;
+}
+
+.modal-body-candidatos{
+        padding: 0rem 1rem 1rem 1rem;
+}
+

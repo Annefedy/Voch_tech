@@ -1,0 +1,69 @@
+/*
+** CSS Responsável pela formatação da classificação de 4 estrelas
+*/
+
+/*Responsivo*/
+@media screen and (max-width: 800px) {
+
+  .rating>label {
+    font-size: 6vw !important;
+  }
+
+}
+@media screen and (min-width: 801px) and (max-width: 1050px) {}
+
+@media screen and (min-width: 1280px) and (max-width: 1300px) {}
+
+@media only screen and (min-width: 1301px) {}
+
+/*Fim do Responsivo*/
+
+.rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
+}
+
+.rating>input {
+  display: none;
+}
+
+.rating>label {
+  position: relative;
+  width: 1em;
+  font-size: 1.2vw;
+  color: #FFD600;
+  cursor: pointer;
+}
+
+.rating>label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+  opacity: 1 !important;
+}
+
+.rating>input:checked~label:before {
+  opacity: 1;
+}
+
+.rating:hover>input:checked~label:before {
+  opacity: 0.4;
+}
+
+.star-labels {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16.1948px;
+  line-height: 15px;
+  color: #454545;
+}
+
+.dark-mode .star-labels {
+  color: #f2f2f2;
+}
